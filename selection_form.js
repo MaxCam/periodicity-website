@@ -403,7 +403,7 @@ function onAnchorChange(msm_id, countries, urlParams) {
                         probeChecks.attr("checked", false);
                         $("#loading_status_atlas").html("");
                         var maxProbes = parseInt(urlParams["maxProbes"] || "1");
-                        $("#launchtplay_button").attr("disabled", false);
+                        // $("#launchtplay_button").attr("disabled", false);
 
                         selection = {
                             msm: msm_id,
@@ -412,9 +412,15 @@ function onAnchorChange(msm_id, countries, urlParams) {
                         probeChecks.change(function() {
                             var numSelectedProbes = $(".probe_check:checked").length;
                             if (numSelectedProbes == maxProbes + 1) {
+
+                                selection = {
+                                    msm: msm_id,
+                                    probes: $(".probe_check:checked").map(function () { return $(this).val() }).toArray()
+                                };
+                                
                                 $("#loading_status_atlas").css("color", "orangered").html("We are sorry! You can select maximum one probe");
                                 this.checked = false;
-                                $("#launchtplay_button").attr("disabled", true);
+                                // $("#launchtplay_button").attr("disabled", true);
                                 return false;
                             }
                             $("#loading_status_atlas").html("");
@@ -457,13 +463,13 @@ $(document).ready(function () {
 
                 function setupAnchorRadios() {
                     emptyProbesMenu();
-                    $("#launchtplay_button").attr("disabled", true);
+                    // $("#launchtplay_button").attr("disabled", true);
                     $("#loading_status_atlas").html("");
                     var anchorRadios = $('input[type=radio][name=anchor_radio]');
                     anchorRadios.attr("checked", false);
                     anchorRadios.change(function() {
                         emptyProbesMenu();
-                        $("#launchtplay_button").attr("disabled", true);
+                        // $("#launchtplay_button").attr("disabled", true);
                         $("#loading_status_atlas").html("");
                         var msmId = this.value;
                         onAnchorChange(msmId, countries, urlParams);
