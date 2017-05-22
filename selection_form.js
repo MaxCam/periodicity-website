@@ -403,70 +403,6 @@ function shuffle(a) {
 }
 
 
-function onCheckdataButtonClick(anchors, urlParams) {
-    $("body").css('cursor', 'progress');
-    $("#loading_status_atlas").css("color", "blue").html("Loading, please wait...");
-    var msmId = $("input[type=radio][name=anchor_radio]:checked").val();
-    var targetProbeId = anchors.filter(function (a) { return a.v4_msm_id == parseInt(msmId) })[0].id;
-    var probeIds = $(".probe_check:checked").map(function () { return $(this).val() }).toArray();
-    if (probeIds.length == 0) {
-        probeIds = $(".probe_check").map(function () { return $(this).val() }).toArray();
-        shuffle(probeIds);
-        probeIds = probeIds.slice(0, urlParams.maxProbes);
-    }
-    var body = {msm_id: msmId, probe_ids: probeIds, target_probe_id: targetProbeId};
-    for (var param in urlParams) {
-        if (body[param] == undefined)
-            body[param] = urlParams[param];
-    }
-    console.log("Requesting:", body);
-    $.post(dia + "fetch-latest-data", body)
-        .done(function (response) {
-            if (!response.error) {
-                $("#checkdata_button").attr("disabled", true);
-                if (!response.empty) {
-                    tplayQuery = "?resource=" + msmId;
-                    tplayQuery += "&starttime=" + response.startTime + "&endtime=" + response.endTime;
-                    tplayQuery += "&selectedProbes=" + probeIds.join(",");
-                    $("#launchtplay_button").attr("disabled", false);
-                    var incompleteProbeIds = probeIds.filter(function (id) {
-                        return response.probeSamples[id] == undefined;
-                    });
-                    if (incompleteProbeIds.length == 0) {
-                        $("#loading_status_atlas").css("color", "green").html(
-                            "Your data are ready. Press the Launch button to run Radian!");
-                    } else {
-                        var probesHtml = incompleteProbeIds.map(function (id) {
-                            return "<li>Probe ID " + id + ": found no data</li>";
-                        });
-                        $("#loading_status_atlas").css("color", "orangered").html(
-                            '<span style="color: green">Your data are ready!</span><br/>' +
-                            'However, for some of the selected probes' +
-                            ' we could find only limited data. You can proceed anyway and' +
-                            ' press the Launch button to run Radian, or select different' +
-                            ' probes and try again.' +
-                            '<ul id="incomplete-probes">' + probesHtml + '</ul>');
-                    }
-                } else {
-                    $("#loading_status_atlas").css("color", "orangered").html(
-                        "No data could be found for this query. Please try a different one.");
-                }
-            } else {
-                $("#loading_status_atlas").css("color", "red").html(
-                    "An internal server error occurred!");
-                console.log("Server error", response);
-            }
-        })
-        .fail(function() {
-            $("#loading_status_atlas").css("color", "red").html("Error: cannot connect to the server.");
-            console.log("Server timeout");
-        })
-        .always(function() {
-            $("body").css('cursor', 'auto');
-        });
-}
-
-
 function onLaunchtplayButtonClick() {
     console.log(tplayQuery);
     window.open(tplay + tplayQuery);
@@ -487,7 +423,6 @@ function onAnchorChange(msm_id, countries, urlParams) {
                     function setupProbeChecks() {
                         var probeChecks = $('input[type=checkbox][class=probe_check]');
                         probeChecks.attr("checked", false);
-                        $("#checkdata_button").attr("disabled", true);
                         $("#launchtplay_button").attr("disabled", true);
                         $("#loading_status_atlas").html("");
                         var maxProbes = parseInt(urlParams["maxProbes"] || "5");
@@ -499,8 +434,7 @@ function onAnchorChange(msm_id, countries, urlParams) {
                                 this.checked = false;
                                 return false;
                             }
-                            $("#checkdata_button").attr("disabled", numSelectedProbes == 0);
-                            $("#launchtplay_button").attr("disabled", true);
+                            $("#launchtplay_button").attr("disabled", false);
                             $("#loading_status_atlas").html("");
                         });
                     }
@@ -541,14 +475,12 @@ $(document).ready(function () {
 
                 function setupAnchorRadios() {
                     emptyProbesMenu();
-                    $("#checkdata_button").attr("disabled", true);
                     $("#launchtplay_button").attr("disabled", true);
                     $("#loading_status_atlas").html("");
                     var anchorRadios = $('input[type=radio][name=anchor_radio]');
                     anchorRadios.attr("checked", false);
                     anchorRadios.change(function() {
                         emptyProbesMenu();
-                        $("#checkdata_button").attr("disabled", true);
                         $("#launchtplay_button").attr("disabled", true);
                         $("#loading_status_atlas").html("");
                         var msmId = this.value;
@@ -558,7 +490,6 @@ $(document).ready(function () {
 
                 setupAnchorRadios();
                 populateAsSelector("#anchor_as_selector", allAnchors, asn2holder, anchorTree, setupAnchorRadios);
-                $("#checkdata_button").click(function () { onCheckdataButtonClick(allAnchors, urlParams) });
                 $("#launchtplay_button").click(onLaunchtplayButtonClick);
             });
         })
