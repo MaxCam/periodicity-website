@@ -2,9 +2,9 @@
 var atlas = "https://atlas.ripe.net/api/v2/";
 
 // Note: CORS is enabled on our server, make plain JSON requests
-var dia = "http://webrobotics.net/json.php?callback=?&resource=http://nero.dia.uniroma3.it:8080/api/v0/";
+var dia = "https://webrobotics.net/json.php?callback=?&resource=http://nero.dia.uniroma3.it:8080/api/v0/";
 
-var loadCitiesUrl = "http://webrobotics.net/nearest-city.php";
+var loadCitiesUrl = "https://webrobotics.net/nearest-city.php";
 var tplay = "https://www.dia.uniroma3.it/~compunet/projects/radian/client/index_atlas_anchors.html";
 
 
@@ -146,7 +146,7 @@ function loadCities(probes, callback) {
         dataType: "json",
         async: true,
         cache: false,
-        timeout: config.ajaxTimeout,
+        //timeout: config.ajaxTimeout,
         url: loadCitiesUrl,
         data: {
             latitude: latitude.join(","),
