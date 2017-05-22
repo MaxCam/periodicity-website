@@ -8,7 +8,7 @@ var loadCitiesUrl = "https://webrobotics.net/nearest-city.php";
 var tplay = "https://www.dia.uniroma3.it/~compunet/projects/radian/client/index_atlas_anchors.html";
 
 
-var tplayQuery;
+var selection;
 
 
 function loadAnchorsData(callback) {
@@ -16,27 +16,6 @@ function loadAnchorsData(callback) {
         callback(data);
     });
 }
-
-/*
- // Incomplete, experimental version. Dynamically gets the list of anchors from the server.
- function loadAnchorsData_(callback) {
- $.getJSON(dia + "atlas-anchors")
- .done(function (data) {
- var anchors = data.anchors.map(function(anchor) {
- return {
- "id": anchor.probe,
- "country_code": anchor.country,
- "asn_v4": anchor.as_v4,
- };
- });
- callback(anchors);
- })
- .fail(function(jqxhr, textStatus, error) {
- console.error(jqxhr, textStatus, error);
- callback(error);
- });
- }
- */
 
 
 function loadCountryCodes(callback) {
@@ -404,8 +383,7 @@ function shuffle(a) {
 
 
 function onLaunchtplayButtonClick() {
-    console.log(tplayQuery);
-    window.open(tplay + tplayQuery);
+    console.log(selection);
 }
 
 
@@ -423,18 +401,22 @@ function onAnchorChange(msm_id, countries, urlParams) {
                     function setupProbeChecks() {
                         var probeChecks = $('input[type=checkbox][class=probe_check]');
                         probeChecks.attr("checked", false);
-                        $("#launchtplay_button").attr("disabled", true);
                         $("#loading_status_atlas").html("");
-                        var maxProbes = parseInt(urlParams["maxProbes"] || "5");
+                        var maxProbes = parseInt(urlParams["maxProbes"] || "1");
+                        $("#launchtplay_button").attr("disabled", false);
+
+                        selection = {
+                            msm: msm_id,
+                            probes: $(".probe_check").map(function () { return $(this).val() }).toArray(),
+                        };
                         probeChecks.change(function() {
                             var numSelectedProbes = $(".probe_check:checked").length;
                             if (numSelectedProbes == maxProbes + 1) {
-                                $("#loading_status_atlas").css("color", "orangered").html(
-                                    "We are sorry! This is a demo and up to " + maxProbes + " probes can be selected.");
+                                $("#loading_status_atlas").css("color", "orangered").html("We are sorry! You can select maximum one probe");
                                 this.checked = false;
+                                $("#launchtplay_button").attr("disabled", true);
                                 return false;
                             }
-                            $("#launchtplay_button").attr("disabled", false);
                             $("#loading_status_atlas").html("");
                         });
                     }
