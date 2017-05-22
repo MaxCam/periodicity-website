@@ -383,7 +383,11 @@ function shuffle(a) {
 
 
 function onLaunchtplayButtonClick() {
-    console.log(selection);
+    document.location = "https://massimo.ripe.net/periodicity-calculate/" +
+        "?start=1460505600" +
+        "&stop=1460592000" +
+        "&probe=" + selection.probes[0] +
+        "&measurement=5029" + selection.msm;
 }
 
 
