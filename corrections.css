@@ -1,0 +1,109 @@
+
+body {
+	font-size: 120%;
+	line-height: normal;
+	color: #000000;
+}
+
+#templatemo_header #site_logo {
+	background: none;
+	padding-top: 5px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+#templatemo_header #site_logo #site_title {
+}
+
+#templatemo_header #site_logo #site_subtitle {
+	font-size: 50%;
+}
+
+#templatemo_menu ul li a {
+	width: 120px;
+}
+
+#templatemo_banner_content {
+	margin-top: 2em;
+	font-weight: normal;
+}
+
+#templatemo_banner_content span {
+	display: inline-block;
+}
+
+#column_w530 {
+	line-height: inherit;
+}
+
+#banner_sub_slogan {
+	color: #959787;
+	font-size: 20px; 
+	line-height: 25px; 
+	margin-bottom: 20px;
+}
+
+.header_02 {
+	font-weight: normal;
+	margin-top: 0px
+}
+
+/*
+This patch makes the content as large as the screen.
+However, you must switch in the DOM the positions of #column_w530
+and #column_w300 for it to work.
+
+#templatemo_content_wrapper {
+	width: auto;
+}
+
+#templatemo_content {
+	width: auto;
+}
+
+#column_w530 {
+	width: auto;
+	float: none;
+}
+
+.header_02 {
+	clear: none;
+}
+
+.margin_bottom_20 {
+	clear: none;
+}*/
+
+/* If the lateral news box is deactivated, let the main box use all space */
+#column_w530 {
+	width: auto;
+}
+
+#main_interface {
+	text-align: center;
+	font-size: 80%;
+}
+
+#main_interface img {
+	width: 80%;
+	border: 1px solid #8193EB;
+	border-radius: 15px;
+}
+
+.howitworks {
+	float: right; 
+	clear: right; 
+	width: 300px; 
+}
+
+.howitworks2 {
+	margin-bottom: 2em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 1em;
+}

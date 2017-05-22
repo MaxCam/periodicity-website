@@ -1,0 +1,1811 @@
+[
+{
+    "country_code": "CA",
+    "asn_v4": 852,
+    "id": 6143,
+    "company": "TELUS",
+    "city": "Vancouver",
+    "country": "Canada",
+    "v4_msm_id": 2351480
+},
+{
+    "country_code": "SG",
+    "asn_v4": 18106,
+    "id": 6139,
+    "company": "ViewQwest",
+    "city": "Singapore",
+    "country": "Singapore",
+    "v4_msm_id": 2244316
+},
+{
+    "country_code": "AR",
+    "asn_v4": 4270,
+    "id": 6170,
+    "company": "ARIU",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "v4_msm_id": 3315653
+},
+{
+    "country_code": "AT",
+    "asn_v4": 42473,
+    "id": 6120,
+    "company": "ANEXIA Internetdienstleistungs GmbH",
+    "city": "Klagenfurt",
+    "country": "Austria",
+    "v4_msm_id": 1962547
+},
+{
+    "country_code": "AT",
+    "asn_v4": 5404,
+    "id": 6131,
+    "company": "conova communications GmbH",
+    "city": "Salzburg",
+    "country": "Austria",
+    "v4_msm_id": 2025970
+},
+{
+    "country_code": "AT",
+    "asn_v4": 1120,
+    "id": 6042,
+    "company": "VIX",
+    "city": "Vienna",
+    "country": "Austria",
+    "v4_msm_id": 1437284
+},
+{
+    "country_code": "AT",
+    "asn_v4": 1853,
+    "id": 6009,
+    "company": "Vienna University  ACOnet",
+    "city": "Vienna",
+    "country": "Austria",
+    "v4_msm_id": 1026355
+},
+{
+    "country_code": "AT",
+    "asn_v4": 30971,
+    "id": 6173,
+    "company": "nic.at",
+    "city": "Wien",
+    "country": "Austria",
+    "v4_msm_id": 3361693
+},
+{
+    "country_code": "AU",
+    "asn_v4": 4608,
+    "id": 6055,
+    "company": "APNIC",
+    "city": "Brisbane",
+    "country": "Australia",
+    "v4_msm_id": 1618360
+},
+{
+    "country_code": "AU",
+    "asn_v4": 38796,
+    "id": 6044,
+    "company": "AusRegistry ",
+    "city": "Melbourne",
+    "country": "Australia",
+    "v4_msm_id": 1446417
+},
+{
+    "country_code": "BD",
+    "asn_v4": 24122,
+    "id": 6138,
+    "company": "BDIX",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "v4_msm_id": 2096533
+},
+{
+    "country_code": "BE",
+    "asn_v4": 2611,
+    "id": 6071,
+    "company": "MOSAIC - University of Antwerp - iMinds",
+    "city": "Antwerp",
+    "country": "Belgium",
+    "v4_msm_id": 1698327
+},
+{
+    "country_code": "BE",
+    "asn_v4": 2611,
+    "id": 6058,
+    "company": "Université catholique de Louvain",
+    "city": "Louvain-la-Neuve",
+    "country": "Belgium",
+    "v4_msm_id": 1663325
+},
+{
+    "country_code": "BG",
+    "asn_v4": 198228,
+    "id": 6164,
+    "company": "Silistra Telecom Solutions Ltd.",
+    "city": "Silistra",
+    "country": "Bulgaria",
+    "v4_msm_id": 3058685
+},
+{
+    "country_code": "BG",
+    "asn_v4": 197216,
+    "id": 6112,
+    "company": "Delta Softmedia Ltd",
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "v4_msm_id": 1879037
+},
+{
+    "country_code": "BG",
+    "asn_v4": 47872,
+    "id": 6163,
+    "company": "Sofia Connect",
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "v4_msm_id": 3044920
+},
+{
+    "country_code": "BR",
+    "asn_v4": 22548,
+    "id": 6099,
+    "company": "Núcleo de Informação e Coordenação do Ponto BR - NIC.br",
+    "city": "Sao Paulo",
+    "country": "Brazil",
+    "v4_msm_id": 1804069
+},
+{
+    "country_code": "BT",
+    "asn_v4": 38740,
+    "id": 6184,
+    "company": "Tashi InfoComm Limited",
+    "city": "Thimpbu",
+    "country": "Bhutan",
+    "v4_msm_id": 3596831
+},
+{
+    "country_code": "CA",
+    "asn_v4": 852,
+    "id": 6148,
+    "company": "TELUS",
+    "city": "Montreal",
+    "country": "Canada",
+    "v4_msm_id": 2417650
+},
+{
+    "country_code": "CA",
+    "asn_v4": 4508,
+    "id": 6196,
+    "company": "NeuStyle Corporation",
+    "city": "Waterloo",
+    "country": "Canada",
+    "v4_msm_id": 3789094
+},
+{
+    "country_code": "CH",
+    "asn_v4": 20612,
+    "id": 6115,
+    "company": "SwissIX Internet Exchange",
+    "city": "Glattbrugg",
+    "country": "Switzerland",
+    "v4_msm_id": 1898895
+},
+{
+    "country_code": "CH",
+    "asn_v4": 34288,
+    "id": 6005,
+    "company": "Kantonsschule Zug",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "v4_msm_id": 1026359
+},
+{
+    "country_code": "CH",
+    "asn_v4": 559,
+    "id": 6015,
+    "company": "SWITCH NOC",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "v4_msm_id": 1026363
+},
+{
+    "country_code": "CL",
+    "asn_v4": 27678,
+    "id": 6160,
+    "company": "NIC Chile",
+    "city": "Santiago",
+    "country": "Chile",
+    "v4_msm_id": 2957509
+},
+{
+    "country_code": "CR",
+    "asn_v4": 263779,
+    "id": 6167,
+    "company": "NIC COSTA RICA",
+    "city": "San José",
+    "country": "Costa Rica",
+    "v4_msm_id": 3203677
+},
+{
+    "country_code": "CZ",
+    "asn_v4": 197451,
+    "id": 6110,
+    "company": "Brno University of Technology",
+    "city": "Brno",
+    "country": "Czech Republic",
+    "v4_msm_id": 1875035
+},
+{
+    "country_code": "CZ",
+    "asn_v4": 24971,
+    "id": 6193,
+    "company": "Master Internet s.r.o",
+    "city": "Brno",
+    "country": "Czech Republic",
+    "v4_msm_id": 3677491
+},
+{
+    "country_code": "CZ",
+    "asn_v4": 25192,
+    "id": 6006,
+    "company": "Nic.cz",
+    "city": "Prague",
+    "country": "Czech Republic",
+    "v4_msm_id": 1026367
+},
+{
+    "country_code": "CZ",
+    "asn_v4": 2852,
+    "id": 6068,
+    "company": "CESNET, z. s. p. o.",
+    "city": "Prague",
+    "country": "Czech Republic",
+    "v4_msm_id": 1695913
+},
+{
+    "country_code": "CZ",
+    "asn_v4": 39392,
+    "id": 6056,
+    "company": "SuperNetwork ",
+    "city": "Prague",
+    "country": "Czech Republic",
+    "v4_msm_id": 1637582
+},
+{
+    "country_code": "CZ",
+    "asn_v4": 52130,
+    "id": 6185,
+    "company": "Livesport s.r.o.",
+    "city": "Prague",
+    "country": "Czech Republic",
+    "v4_msm_id": 3599015
+},
+{
+    "country_code": "CZ",
+    "asn_v4": 6881,
+    "id": 6150,
+    "company": "NIX.CZ z.s.p.o.",
+    "city": "Prague",
+    "country": "Czech Republic",
+    "v4_msm_id": 2439395
+},
+{
+    "country_code": "DE",
+    "asn_v4": 20647,
+    "id": 6117,
+    "company": "CarrierColo / IPB GmbH",
+    "city": "Berlin",
+    "country": "Germany",
+    "v4_msm_id": 1906512
+},
+{
+    "country_code": "DE",
+    "asn_v4": 25291,
+    "id": 6017,
+    "company": "SysEleven ",
+    "city": "Berlin",
+    "country": "Germany",
+    "v4_msm_id": 1026371
+},
+{
+    "country_code": "DE",
+    "asn_v4": 62310,
+    "id": 6183,
+    "company": "managedhosting.de GmbH",
+    "city": "Berlin",
+    "country": "Germany",
+    "v4_msm_id": 3579455
+},
+{
+    "country_code": "DE",
+    "asn_v4": 680,
+    "id": 6202,
+    "company": "TU Braunschweig, Gauß-IT-Zentrum",
+    "city": "Braunschweig",
+    "country": "Germany",
+    "v4_msm_id": 4377618
+},
+{
+    "country_code": "DE",
+    "asn_v4": 39702,
+    "id": 6073,
+    "company": "S-IT Informationstechnologie Betreiber GmbH &amp; Co. KG",
+    "city": "Calw",
+    "country": "Germany",
+    "v4_msm_id": 1722410
+},
+{
+    "country_code": "DE",
+    "asn_v4": 8365,
+    "id": 6186,
+    "company": "Technische Universität Darmstadt - Secure Mobile Networking Lab / DFG Collaborative Research Center ",
+    "city": "Darmstadt",
+    "country": "Germany",
+    "v4_msm_id": 3603761
+},
+{
+    "country_code": "DE",
+    "asn_v4": 42699,
+    "id": 6180,
+    "company": "managedhosting.de GmbH",
+    "city": "Dresden",
+    "country": "Germany",
+    "v4_msm_id": 3560194
+},
+{
+    "country_code": "DE",
+    "asn_v4": 680,
+    "id": 6166,
+    "company": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+    "city": "Erlangen",
+    "country": "Germany",
+    "v4_msm_id": 3103412
+},
+{
+    "country_code": "DE",
+    "asn_v4": 202040,
+    "id": 6078,
+    "company": "SCT Schiele GmbH",
+    "city": "Ettlingen",
+    "country": "Germany",
+    "v4_msm_id": 1765533
+},
+{
+    "country_code": "DE",
+    "asn_v4": 28753,
+    "id": 6152,
+    "company": "Leaseweb Network B.V.",
+    "city": "Frankfurt am Main",
+    "country": "Germany",
+    "v4_msm_id": 2457234
+},
+{
+    "country_code": "DE",
+    "asn_v4": 43996,
+    "id": 6141,
+    "company": "Booking.com IT Services",
+    "city": "Frankfurt am Main",
+    "country": "Germany",
+    "v4_msm_id": 2386536
+},
+{
+    "country_code": "DE",
+    "asn_v4": 48918,
+    "id": 6105,
+    "company": "Globalways AG",
+    "city": "Frankfurt",
+    "country": "Germany",
+    "v4_msm_id": 1842488
+},
+{
+    "country_code": "DE",
+    "asn_v4": 49024,
+    "id": 6134,
+    "company": "FHE3 GmbH",
+    "city": "Frankfurt am Main",
+    "country": "Germany",
+    "v4_msm_id": 2053744
+},
+{
+    "country_code": "DE",
+    "asn_v4": 5580,
+    "id": 6023,
+    "company": "Hibernia Networks",
+    "city": "Frankfurt",
+    "country": "Germany",
+    "v4_msm_id": 1042417
+},
+{
+    "country_code": "DE",
+    "asn_v4": 8763,
+    "id": 6060,
+    "company": "DENIC eG",
+    "city": "Frankfurt",
+    "country": "Germany",
+    "v4_msm_id": 1664873
+},
+{
+    "country_code": "DE",
+    "asn_v4": 56357,
+    "id": 6159,
+    "company": "Techische Universität München",
+    "city": "Garching",
+    "country": "Germany",
+    "v4_msm_id": 2924502
+},
+{
+    "country_code": "DE",
+    "asn_v4": 12731,
+    "id": 6014,
+    "company": "IPHH",
+    "city": "Hamburg",
+    "country": "Germany",
+    "v4_msm_id": 1026375
+},
+{
+    "country_code": "DE",
+    "asn_v4": 201709,
+    "id": 6135,
+    "company": "Netzwerge Hamburg eK",
+    "city": "Hamburg",
+    "country": "Germany",
+    "v4_msm_id": 2055768
+},
+{
+    "country_code": "DE",
+    "asn_v4": 13101,
+    "id": 6052,
+    "company": "ennit Server ",
+    "city": "Kiel",
+    "country": "Germany",
+    "v4_msm_id": 1596619
+},
+{
+    "country_code": "DE",
+    "asn_v4": 5539,
+    "id": 6020,
+    "company": "SpaceNet",
+    "city": "Munchen",
+    "country": "Germany",
+    "v4_msm_id": 1042255
+},
+{
+    "country_code": "DE",
+    "asn_v4": 8767,
+    "id": 6123,
+    "company": "M-net Telekommunikations GmbH",
+    "city": "München",
+    "country": "Germany",
+    "v4_msm_id": 1999831
+},
+{
+    "country_code": "DE",
+    "asn_v4": 33988,
+    "id": 6081,
+    "company": "teamix GmbH",
+    "city": "Nuremberg",
+    "country": "Germany",
+    "v4_msm_id": 1768115
+},
+{
+    "country_code": "DE",
+    "asn_v4": 60574,
+    "id": 6171,
+    "company": "net-manager UG (haftungsbeschränkt)",
+    "city": "Nürnberg",
+    "country": "Germany",
+    "v4_msm_id": 3321322
+},
+{
+    "country_code": "DE",
+    "asn_v4": 48918,
+    "id": 6108,
+    "company": "Globalways AG",
+    "city": "Stuttgart",
+    "country": "Germany",
+    "v4_msm_id": 1861850
+},
+{
+    "country_code": "DE",
+    "asn_v4": 553,
+    "id": 6035,
+    "company": "BelWue",
+    "city": "Stuttgart",
+    "country": "Germany",
+    "v4_msm_id": 1404703
+},
+{
+    "country_code": "DK",
+    "asn_v4": 197495,
+    "id": 6109,
+    "company": "Larsen Data ApS",
+    "city": "Ballerup",
+    "country": "Denmark",
+    "v4_msm_id": 1864028
+},
+{
+    "country_code": "DK",
+    "asn_v4": 39839,
+    "id": 6103,
+    "company": "DK Hostmaster A/S",
+    "city": "Ballerup",
+    "country": "Denmark",
+    "v4_msm_id": 1835778
+},
+{
+    "country_code": "DK",
+    "asn_v4": 59469,
+    "id": 6069,
+    "company": "Solido Networks ApS",
+    "city": "Ballerup",
+    "country": "Denmark",
+    "v4_msm_id": 1696927
+},
+{
+    "country_code": "DK",
+    "asn_v4": 51468,
+    "id": 6199,
+    "company": "One.com",
+    "city": "Tastrup",
+    "country": "Denmark",
+    "v4_msm_id": 3917496
+},
+{
+    "country_code": "EE",
+    "asn_v4": 198068,
+    "id": 6111,
+    "company": "FastVPS Eesti OU",
+    "city": "Jõhvi",
+    "country": "Estonia",
+    "v4_msm_id": 1878008
+},
+{
+    "country_code": "EE",
+    "asn_v4": 51349,
+    "id": 6188,
+    "company": "Estonian Internet Foundation",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "v4_msm_id": 3614641
+},
+{
+    "country_code": "ES",
+    "asn_v4": 13041,
+    "id": 6048,
+    "company": "CSUC",
+    "city": "Barcelona",
+    "country": "Spain",
+    "v4_msm_id": 1583040
+},
+{
+    "country_code": "ES",
+    "asn_v4": 766,
+    "id": 6124,
+    "company": "University Carlos III of Madrid",
+    "city": "Leganés",
+    "country": "Spain",
+    "v4_msm_id": 2004731
+},
+{
+    "country_code": "FI",
+    "asn_v4": 3274,
+    "id": 6192,
+    "company": "Cygate Oy",
+    "city": "Helsinki",
+    "country": "Finland",
+    "v4_msm_id": 3624320
+},
+{
+    "country_code": "FI",
+    "asn_v4": 3292,
+    "id": 6036,
+    "company": "FICIX",
+    "city": "Helsinki",
+    "country": "Finland",
+    "v4_msm_id": 1413039
+},
+{
+    "country_code": "FI",
+    "asn_v4": 30798,
+    "id": 6116,
+    "company": "TNNet Oy Ltd",
+    "city": "Jyväskylä",
+    "country": "Finland",
+    "v4_msm_id": 1929377
+},
+{
+    "country_code": "FI",
+    "asn_v4": 29432,
+    "id": 6003,
+    "company": "TREX",
+    "city": "Tampere",
+    "country": "Finland",
+    "v4_msm_id": 1026379
+},
+{
+    "country_code": "FO",
+    "asn_v4": 15389,
+    "id": 6181,
+    "company": "P/F Telefonverkid",
+    "city": "Hoyvik",
+    "country": "Faroe Islands",
+    "v4_msm_id": 3564715
+},
+{
+    "country_code": "FR",
+    "asn_v4": 2486,
+    "id": 6004,
+    "company": "AFNIC",
+    "city": "Paris",
+    "country": "France",
+    "v4_msm_id": 1026383
+},
+{
+    "country_code": "FR",
+    "asn_v4": 57734,
+    "id": 6118,
+    "company": "FranceIX",
+    "city": "Paris",
+    "country": "France",
+    "v4_msm_id": 1907465
+},
+{
+    "country_code": "FR",
+    "asn_v4": 513,
+    "id": 6043,
+    "company": "CERN",
+    "city": "Prévessin-Moëns",
+    "country": "France",
+    "v4_msm_id": 1442070
+},
+{
+    "country_code": "FR",
+    "asn_v4": 8839,
+    "id": 6025,
+    "company": "SdV Plurimedia",
+    "city": "Strasbourg",
+    "country": "France",
+    "v4_msm_id": 1042403
+},
+{
+    "country_code": "FR",
+    "asn_v4": 196670,
+    "id": 6057,
+    "company": "ADP",
+    "city": "Pantin",
+    "country": "France",
+    "v4_msm_id": 1639699
+},
+{
+    "country_code": "FR",
+    "asn_v4": 199422,
+    "id": 6038,
+    "company": "Rezopole/LyonIX",
+    "city": "Lyon",
+    "country": "France",
+    "v4_msm_id": 1421786
+},
+{
+    "country_code": "FR",
+    "asn_v4": 201958,
+    "id": 6133,
+    "company": "ADP",
+    "city": "Saint-Denis",
+    "country": "France",
+    "v4_msm_id": 2037869
+},
+{
+    "country_code": "FR",
+    "asn_v4": 8426,
+    "id": 6165,
+    "company": "Claranet",
+    "city": "Saint-Denis",
+    "country": "France",
+    "v4_msm_id": 3062261
+},
+{
+    "country_code": "FR",
+    "asn_v4": 35625,
+    "id": 6029,
+    "company": "ATE",
+    "city": "Sainghin en Mélantois",
+    "country": "France",
+    "v4_msm_id": 1401947
+},
+{
+    "country_code": "GR",
+    "asn_v4": 5408,
+    "id": 6026,
+    "company": "GRNET",
+    "city": "Athens",
+    "country": "Greece",
+    "v4_msm_id": 1043286
+},
+{
+    "country_code": "HK",
+    "asn_v4": 133752,
+    "id": 6191,
+    "company": "Leaseweb Network B.V.",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "v4_msm_id": 3624303
+},
+{
+    "country_code": "HK",
+    "asn_v4": 43996,
+    "id": 6145,
+    "company": "Booking.com IT Services B.V.",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "v4_msm_id": 2395060
+},
+{
+    "country_code": "HU",
+    "asn_v4": 12303,
+    "id": 6039,
+    "company": "BIX",
+    "city": "Budapest",
+    "country": "Hungary",
+    "v4_msm_id": 1423186
+},
+{
+    "country_code": "ID",
+    "asn_v4": 10208,
+    "id": 6169,
+    "company": "PT. Millenium Internetindo",
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "v4_msm_id": 3295749
+},
+{
+    "country_code": "IE",
+    "asn_v4": 39122,
+    "id": 6047,
+    "company": "Blacknight Internet Solutions Limited",
+    "city": "Carlow",
+    "country": "Ireland",
+    "v4_msm_id": 1577725
+},
+{
+    "country_code": "IE",
+    "asn_v4": 1213,
+    "id": 6050,
+    "company": "HEAnet",
+    "city": "Dublin",
+    "country": "Ireland",
+    "v4_msm_id": 1591156
+},
+{
+    "country_code": "IE",
+    "asn_v4": 2128,
+    "id": 6200,
+    "company": "INEX",
+    "city": "Dublin",
+    "country": "Ireland",
+    "v4_msm_id": 3917962
+},
+{
+    "country_code": "IE",
+    "asn_v4": 2128,
+    "id": 6197,
+    "company": "INEX",
+    "city": "Cork",
+    "country": "Ireland",
+    "v4_msm_id": 3858501
+},
+{
+    "country_code": "IN",
+    "asn_v4": 33480,
+    "id": 6107,
+    "company": "WEB WERKS INDIA",
+    "city": "Mumbai",
+    "country": "India",
+    "v4_msm_id": 1849605
+},
+{
+    "country_code": "IS",
+    "asn_v4": 1850,
+    "id": 6032,
+    "company": "ISNIC",
+    "city": "Reykjavik",
+    "country": "Iceland",
+    "v4_msm_id": 1402339
+},
+{
+    "country_code": "IS",
+    "asn_v4": 25509,
+    "id": 6041,
+    "company": "Hringidan ",
+    "city": "Reykjavik",
+    "country": "Iceland",
+    "v4_msm_id": 1425314
+},
+{
+    "country_code": "IT",
+    "asn_v4": 16004,
+    "id": 6094,
+    "company": "MIX",
+    "city": "Milan",
+    "country": "Italy",
+    "v4_msm_id": 1791291
+},
+{
+    "country_code": "IT",
+    "asn_v4": 12779,
+    "id": 6011,
+    "company": "IT.Gate",
+    "city": "Turin",
+    "country": "Italy",
+    "v4_msm_id": 1026391
+},
+{
+    "country_code": "JP",
+    "asn_v4": 13901,
+    "id": 6158,
+    "company": "Afilias",
+    "city": "Tokyo",
+    "country": "Japan",
+    "v4_msm_id": 2923644
+},
+{
+    "country_code": "JP",
+    "asn_v4": 2500,
+    "id": 6033,
+    "company": "WIDE BB/UTokyo",
+    "city": "Tokyo",
+    "country": "Japan",
+    "v4_msm_id": 1404333
+},
+{
+    "country_code": "KH",
+    "asn_v4": 7712,
+    "id": 6206,
+    "company": "Sabay Digital Coperation",
+    "city": "Phnom Penh",
+    "country": "Cambodia",
+    "v4_msm_id": 4426485
+},
+{
+    "country_code": "KZ",
+    "asn_v4": 21299,
+    "id": 6083,
+    "company": "2Day Telecom, LLP",
+    "city": "Almaty",
+    "country": "Kazakhstan",
+    "v4_msm_id": 1769991
+},
+{
+    "country_code": "KZ",
+    "asn_v4": 21282,
+    "id": 6086,
+    "company": "KazNIC Organization",
+    "city": "Semey",
+    "country": "Kazakhstan",
+    "v4_msm_id": 1789806
+},
+{
+    "country_code": "LK",
+    "asn_v4": 38229,
+    "id": 6089,
+    "company": "Lanka Education &amp; Research",
+    "city": "Colombo",
+    "country": "Sri Lanka",
+    "v4_msm_id": 1790199
+},
+{
+    "country_code": "LU",
+    "asn_v4": 2602,
+    "id": 6016,
+    "company": "RESTENA NOC",
+    "city": "Luxembourg",
+    "country": "Luxembourg",
+    "v4_msm_id": 1026395
+},
+{
+    "country_code": "LV",
+    "asn_v4": 52048,
+    "id": 6198,
+    "company": "DATACLUB S.A.",
+    "city": "Riga",
+    "country": "Latvia",
+    "v4_msm_id": 3917118
+},
+{
+    "country_code": "MN",
+    "asn_v4": 45204,
+    "id": 6153,
+    "company": "GEMNET LLC",
+    "city": "Ulaanbaatar",
+    "country": "Mongolia",
+    "v4_msm_id": 2464285
+},
+{
+    "country_code": "MU",
+    "asn_v4": 327681,
+    "id": 6059,
+    "company": "AFRINIC",
+    "city": "Port Louis",
+    "country": "Mauritius",
+    "v4_msm_id": 1664730
+},
+{
+    "country_code": "MV",
+    "asn_v4": 7642,
+    "id": 6136,
+    "company": "DHIRAAGU",
+    "city": "Male",
+    "country": "Maldives",
+    "v4_msm_id": 2063464
+},
+{
+    "country_code": "NC",
+    "asn_v4": 56055,
+    "id": 6162,
+    "company": "Micro Logic Systems (MLS)",
+    "city": "Nouméa",
+    "country": "New Caledonia",
+    "v4_msm_id": 3021099
+},
+{
+    "country_code": "NL",
+    "asn_v4": 1101,
+    "id": 6031,
+    "company": "SURFnet",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "v4_msm_id": 1402317
+},
+{
+    "country_code": "NL",
+    "asn_v4": 1200,
+    "id": 6194,
+    "company": "AMS-IX B.V.",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "v4_msm_id": 3678236
+},
+{
+    "country_code": "NL",
+    "asn_v4": 12041,
+    "id": 6082,
+    "company": "Afilias Ltd",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "v4_msm_id": 1769335
+},
+{
+    "country_code": "NL",
+    "asn_v4": 3265,
+    "id": 6079,
+    "company": "XS4ALL",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "v4_msm_id": 1765882
+},
+{
+    "country_code": "NL",
+    "asn_v4": 3333,
+    "id": 6019,
+    "company": "RIPE NCC",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "v4_msm_id": 1042245
+},
+{
+    "country_code": "NL",
+    "asn_v4": 3333,
+    "id": 6001,
+    "company": "RIPE NCC",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "v4_msm_id": 1026399
+},
+{
+    "country_code": "NL",
+    "asn_v4": 35733,
+    "id": 6204,
+    "company": "EURid VZW",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "v4_msm_id": 4418082
+},
+{
+    "country_code": "NL",
+    "asn_v4": 43996,
+    "id": 6088,
+    "company": "Booking.com IT Services B.V.",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "v4_msm_id": 1790203
+},
+{
+    "country_code": "NL",
+    "asn_v4": 1140,
+    "id": 6040,
+    "company": "SIDN",
+    "city": "Arnhem",
+    "country": "Netherlands",
+    "v4_msm_id": 1425318
+},
+{
+    "country_code": "NL",
+    "asn_v4": 31019,
+    "id": 6022,
+    "company": "Meanie",
+    "city": "Delft",
+    "country": "Netherlands",
+    "v4_msm_id": 1042421
+},
+{
+    "country_code": "NL",
+    "asn_v4": 12414,
+    "id": 6178,
+    "company": "Solcon Internetdiensten N.V.",
+    "city": "Dronten",
+    "country": "Netherlands",
+    "v4_msm_id": 3558669
+},
+{
+    "country_code": "NL",
+    "asn_v4": 51430,
+    "id": 6126,
+    "company": "ALTUSHOST B.V.",
+    "city": "Dronten",
+    "country": "Netherlands",
+    "v4_msm_id": 2016840
+},
+{
+    "country_code": "NL",
+    "asn_v4": 1133,
+    "id": 6113,
+    "company": "University of Twente",
+    "city": "Enschede",
+    "country": "Netherlands",
+    "v4_msm_id": 1880334
+},
+{
+    "country_code": "NL",
+    "asn_v4": 201682,
+    "id": 6151,
+    "company": "Liquid Web",
+    "city": "Haarlem",
+    "country": "Netherlands",
+    "v4_msm_id": 2456804
+},
+{
+    "country_code": "NL",
+    "asn_v4": 60781,
+    "id": 6146,
+    "company": "Leaseweb Network B.V.",
+    "city": "Haarlem",
+    "country": "Netherlands",
+    "v4_msm_id": 2398519
+},
+{
+    "country_code": "NL",
+    "asn_v4": 34612,
+    "id": 6129,
+    "company": "Matrix DATA",
+    "city": "Harderwijk",
+    "country": "Netherlands",
+    "v4_msm_id": 2020876
+},
+{
+    "country_code": "NL",
+    "asn_v4": 43350,
+    "id": 6168,
+    "company": "NFOrce Entertainment BV",
+    "city": "Roosendaal",
+    "country": "Netherlands",
+    "v4_msm_id": 3217639
+},
+{
+    "country_code": "NL",
+    "asn_v4": 1103,
+    "id": 6175,
+    "company": "SURFnet bv",
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "v4_msm_id": 3534345
+},
+{
+    "country_code": "NO",
+    "asn_v4": 39029,
+    "id": 6002,
+    "company": "Redpill Linpro",
+    "city": "Oslo",
+    "country": "Norway",
+    "v4_msm_id": 1026403
+},
+{
+    "country_code": "NP",
+    "asn_v4": 45170,
+    "id": 6114,
+    "company": "NPIX",
+    "city": "Kathmandu",
+    "country": "Nepal",
+    "v4_msm_id": 1891018
+},
+{
+    "country_code": "NZ",
+    "asn_v4": 681,
+    "id": 6076,
+    "company": "The University of Waikato",
+    "city": "Hamilton",
+    "country": "New Zealand",
+    "v4_msm_id": 1733341
+},
+{
+    "country_code": "NZ",
+    "asn_v4": 17746,
+    "id": 6121,
+    "company": "NZ Registry Services",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "v4_msm_id": 1962551
+},
+{
+    "country_code": "PE",
+    "asn_v4": 27843,
+    "id": 6161,
+    "company": "Optical Technologies",
+    "city": "Lima",
+    "country": "Peru",
+    "v4_msm_id": 2966283
+},
+{
+    "country_code": "PH",
+    "asn_v4": 9821,
+    "id": 6132,
+    "company": "ASTI",
+    "city": "Quezon City",
+    "country": "Philippines",
+    "v4_msm_id": 2037106
+},
+{
+    "country_code": "PK",
+    "asn_v4": 7590,
+    "id": 6128,
+    "company": "COMSATS Internet Services",
+    "city": "Islamabad",
+    "country": "Pakistan",
+    "v4_msm_id": 2020834
+},
+{
+    "country_code": "PL",
+    "asn_v4": 9112,
+    "id": 6034,
+    "company": "PCSS",
+    "city": "Poznan",
+    "country": "Poland",
+    "v4_msm_id": 1404595
+},
+{
+    "country_code": "QA",
+    "asn_v4": 8781,
+    "id": 6090,
+    "company": "Ooredoo",
+    "city": "Doha",
+    "country": "Qatar",
+    "v4_msm_id": 1790232
+},
+{
+    "country_code": "RO",
+    "asn_v4": 39107,
+    "id": 6154,
+    "company": "Asociatia Interlan",
+    "city": "Bucharest",
+    "country": "Romania",
+    "v4_msm_id": 2841887
+},
+{
+    "country_code": "RS",
+    "asn_v4": 13004,
+    "id": 6030,
+    "company": "SOX",
+    "city": "Belgrade",
+    "country": "Serbia",
+    "v4_msm_id": 1402084
+},
+{
+    "country_code": "RS",
+    "asn_v4": 13303,
+    "id": 6119,
+    "company": "University of Niš",
+    "city": "Nis",
+    "country": "Serbia",
+    "v4_msm_id": 1929323
+},
+{
+    "country_code": "RU",
+    "asn_v4": 43317,
+    "id": 6177,
+    "company": "Fishnet Communications",
+    "city": "Saint Petersburg ",
+    "country": "Russia",
+    "v4_msm_id": 3558675
+},
+{
+    "country_code": "RU",
+    "asn_v4": 13238,
+    "id": 6203,
+    "company": "Yandex LLC",
+    "city": "Mytishchi",
+    "country": "Russia",
+    "v4_msm_id": 4371230
+},
+{
+    "country_code": "RU",
+    "asn_v4": 15835,
+    "id": 6064,
+    "company": "RIPN",
+    "city": "Moscow",
+    "country": "Russia",
+    "v4_msm_id": 1668851
+},
+{
+    "country_code": "RU",
+    "asn_v4": 47764,
+    "id": 6046,
+    "company": "Mail.ru Group",
+    "city": "Moscow",
+    "country": "Russia",
+    "v4_msm_id": 1575997
+},
+{
+    "country_code": "SE",
+    "asn_v4": 50168,
+    "id": 6063,
+    "company": "Bogal AB",
+    "city": "Gothenburg",
+    "country": "Sweden",
+    "v4_msm_id": 1666914
+},
+{
+    "country_code": "SE",
+    "asn_v4": 49515,
+    "id": 6102,
+    "company": "Nordiska Servercentralen",
+    "city": "Solna",
+    "country": "Sweden",
+    "v4_msm_id": 1835746
+},
+{
+    "country_code": "SE",
+    "asn_v4": 59521,
+    "id": 6037,
+    "company": "Aivivid",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "v4_msm_id": 1421259
+},
+{
+    "country_code": "SE",
+    "asn_v4": 8674,
+    "id": 6049,
+    "company": "NETNOD",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "v4_msm_id": 1589862
+},
+{
+    "country_code": "SG",
+    "asn_v4": 133165,
+    "id": 6077,
+    "company": "DigitalOcean",
+    "city": "Singapore",
+    "country": "Singapore",
+    "v4_msm_id": 1748022
+},
+{
+    "country_code": "SG",
+    "asn_v4": 43996,
+    "id": 6149,
+    "company": "Booking.com IT Services",
+    "city": "Singapore",
+    "country": "Singapore",
+    "v4_msm_id": 2435592
+},
+{
+    "country_code": "SG",
+    "asn_v4": 45494,
+    "id": 6096,
+    "company": "openmirrors.asia",
+    "city": "Singapore",
+    "country": "Singapore",
+    "v4_msm_id": 1796567
+},
+{
+    "country_code": "SG",
+    "asn_v4": 59253,
+    "id": 6157,
+    "company": "Leaseweb Network B.V.",
+    "city": "Singapore",
+    "country": "Singapore",
+    "v4_msm_id": 2904335
+},
+{
+    "country_code": "SI",
+    "asn_v4": 198644,
+    "id": 6085,
+    "company": "SIDN - Go6 Institute",
+    "city": "Skofja Loka",
+    "country": "Slovenia",
+    "v4_msm_id": 1789561
+},
+{
+    "country_code": "SK",
+    "asn_v4": 201702,
+    "id": 6084,
+    "company": "skHosting.eu s.r.o.",
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "v4_msm_id": 1789538
+},
+{
+    "country_code": "SK",
+    "asn_v4": 2607,
+    "id": 6008,
+    "company": "SANET",
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "v4_msm_id": 1026407
+},
+{
+    "country_code": "SK",
+    "asn_v4": 29405,
+    "id": 6104,
+    "company": "VNET a.s.",
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "v4_msm_id": 1842448
+},
+{
+    "country_code": "TN",
+    "asn_v4": 5438,
+    "id": 6051,
+    "company": "ATI",
+    "city": "Tunis",
+    "country": "Tunisia",
+    "v4_msm_id": 1596739
+},
+{
+    "country_code": "UA",
+    "asn_v4": 29632,
+    "id": 6106,
+    "company": "Hitech Service LLC",
+    "city": "Kyiv",
+    "country": "Ukraine",
+    "v4_msm_id": 1845531
+},
+{
+    "country_code": "GB",
+    "asn_v4": 25376,
+    "id": 6195,
+    "company": "Netnorth Limited",
+    "city": "Bolton",
+    "country": "United Kingdom",
+    "v4_msm_id": 3787311
+},
+{
+    "country_code": "GB",
+    "asn_v4": 196745,
+    "id": 6172,
+    "company": "Datacenta Hosting",
+    "city": "Bournemouth",
+    "country": "United Kingdom",
+    "v4_msm_id": 3360589
+},
+{
+    "country_code": "GB",
+    "asn_v4": 48294,
+    "id": 6028,
+    "company": "Spectrum Internet",
+    "city": "Cardiff",
+    "country": "United Kingdom",
+    "v4_msm_id": 1217480
+},
+{
+    "country_code": "GB",
+    "asn_v4": 33920,
+    "id": 6182,
+    "company": "aql",
+    "city": "Leeds",
+    "country": "United Kingdom",
+    "v4_msm_id": 3577501
+},
+{
+    "country_code": "GB",
+    "asn_v4": 20965,
+    "id": 6027,
+    "company": "GEANT",
+    "city": "London",
+    "country": "United Kingdom",
+    "v4_msm_id": 1043457
+},
+{
+    "country_code": "GB",
+    "asn_v4": 5459,
+    "id": 6091,
+    "company": "LINX",
+    "city": "London",
+    "country": "United Kingdom",
+    "v4_msm_id": 1790332
+},
+{
+    "country_code": "GB",
+    "asn_v4": 5607,
+    "id": 6189,
+    "company": "Sky UK Limited",
+    "city": "London",
+    "country": "United Kingdom",
+    "v4_msm_id": 3622418
+},
+{
+    "country_code": "GB",
+    "asn_v4": 60157,
+    "id": 6070,
+    "company": "Antheus Telecom LTD",
+    "city": "London",
+    "country": "United Kingdom",
+    "v4_msm_id": 1698331
+},
+{
+    "country_code": "GB",
+    "asn_v4": 6908,
+    "id": 6174,
+    "company": "Six Degrees Group",
+    "city": "London",
+    "country": "United Kingdom",
+    "v4_msm_id": 3484659
+},
+{
+    "country_code": "GB",
+    "asn_v4": 8676,
+    "id": 6098,
+    "company": "PRT Systems Ltd",
+    "city": "London",
+    "country": "United Kingdom",
+    "v4_msm_id": 1803655
+},
+{
+    "country_code": "GB",
+    "asn_v4": 202109,
+    "id": 6075,
+    "company": "DigitalOcean",
+    "city": "Slough",
+    "country": "United Kingdom",
+    "v4_msm_id": 1726645
+},
+{
+    "country_code": "GB",
+    "asn_v4": 43996,
+    "id": 6087,
+    "company": "Booking.com IT Services B.V.",
+    "city": "Slough",
+    "country": "United Kingdom",
+    "v4_msm_id": 1790207
+},
+{
+    "country_code": "GB",
+    "asn_v4": 5607,
+    "id": 6190,
+    "company": "Sky UK Limited",
+    "city": "Slough",
+    "country": "United Kingdom",
+    "v4_msm_id": 3624067
+},
+{
+    "country_code": "US",
+    "asn_v4": 43996,
+    "id": 6144,
+    "company": "Booking.com IT Services",
+    "city": "Ashburn",
+    "country": "United States of America",
+    "v4_msm_id": 2394115
+},
+{
+    "country_code": "US",
+    "asn_v4": 51468,
+    "id": 6205,
+    "company": "One.com",
+    "city": "Ashburn",
+    "country": "United States of America",
+    "v4_msm_id": 4421111
+},
+{
+    "country_code": "US",
+    "asn_v4": 2914,
+    "id": 6066,
+    "company": "NTT Communications",
+    "city": "Atlanta ",
+    "country": "United States of America",
+    "v4_msm_id": 1672156
+},
+{
+    "country_code": "US",
+    "asn_v4": 11488,
+    "id": 6010,
+    "company": "BBN Technologies",
+    "city": "Boston",
+    "country": "United States of America",
+    "v4_msm_id": 1039806
+},
+{
+    "country_code": "US",
+    "asn_v4": 14907,
+    "id": 6093,
+    "company": "Wikimedia Foundation, Inc.",
+    "city": "Carrollton",
+    "country": "United States of America",
+    "v4_msm_id": 1791209
+},
+{
+    "country_code": "US",
+    "asn_v4": 2914,
+    "id": 6061,
+    "company": "NTT Communications",
+    "city": "Dallas",
+    "country": "United States of America",
+    "v4_msm_id": 1665836
+},
+{
+    "country_code": "US",
+    "asn_v4": 7366,
+    "id": 6067,
+    "company": "Lemuria Communications",
+    "city": "Dallas",
+    "country": "United States of America",
+    "v4_msm_id": 1675583
+},
+{
+    "country_code": "US",
+    "asn_v4": 7922,
+    "id": 6080,
+    "company": "Comcast",
+    "city": "Denver",
+    "country": "United States of America",
+    "v4_msm_id": 1768005
+},
+{
+    "country_code": "US",
+    "asn_v4": 40528,
+    "id": 6125,
+    "company": "ICANN",
+    "city": "El Segundo",
+    "country": "United States of America",
+    "v4_msm_id": 2014981
+},
+{
+    "country_code": "US",
+    "asn_v4": 5580,
+    "id": 6024,
+    "company": "Hibernia Networks ",
+    "city": "New York",
+    "country": "United States of America",
+    "v4_msm_id": 1042425
+},
+{
+    "country_code": "US",
+    "asn_v4": 32244,
+    "id": 6097,
+    "company": "Liquid Web Inc.",
+    "city": "Lansing Charter Township",
+    "country": "United States of America",
+    "v4_msm_id": 1801217
+},
+{
+    "country_code": "US",
+    "asn_v4": 63403,
+    "id": 6142,
+    "company": "Afilias",
+    "city": "Los Angeles",
+    "country": "United States of America",
+    "v4_msm_id": 2339923
+},
+{
+    "country_code": "US",
+    "asn_v4": 2914,
+    "id": 6062,
+    "company": "NTT Communications",
+    "city": "Miami",
+    "country": "United States of America",
+    "v4_msm_id": 1666038
+},
+{
+    "country_code": "US",
+    "asn_v4": 33280,
+    "id": 6147,
+    "company": "Afilias",
+    "city": "Miami",
+    "country": "United States of America",
+    "v4_msm_id": 2398550
+},
+{
+    "country_code": "US",
+    "asn_v4": 30633,
+    "id": 6155,
+    "company": "Leaseweb Network B.V.",
+    "city": "Manassas",
+    "country": "United States of America",
+    "v4_msm_id": 2852012
+},
+{
+    "country_code": "US",
+    "asn_v4": 1280,
+    "id": 6045,
+    "company": "ISC/PAIX",
+    "city": "Palo Alto",
+    "country": "United States of America",
+    "v4_msm_id": 1566674
+},
+{
+    "country_code": "US",
+    "asn_v4": 5580,
+    "id": 6021,
+    "company": "Hibernia Networks ",
+    "city": "Palo Alto",
+    "country": "United States of America",
+    "v4_msm_id": 1042407
+},
+{
+    "country_code": "US",
+    "asn_v4": 53824,
+    "id": 6101,
+    "company": "Liquid Web Inc.",
+    "city": "Phoenix",
+    "country": "United States of America",
+    "v4_msm_id": 1817189
+},
+{
+    "country_code": "US",
+    "asn_v4": 6124,
+    "id": 6127,
+    "company": "Marist College",
+    "city": "Poughkeepsie",
+    "country": "United States of America",
+    "v4_msm_id": 2017398
+},
+{
+    "country_code": "US",
+    "asn_v4": 10745,
+    "id": 6100,
+    "company": "ARIN",
+    "city": "Ashburn",
+    "country": "United States of America",
+    "v4_msm_id": 1806570
+},
+{
+    "country_code": "US",
+    "asn_v4": 14907,
+    "id": 6092,
+    "company": "Wikimedia Foundation, Inc.",
+    "city": "Ashburn",
+    "country": "United States of America",
+    "v4_msm_id": 1790944
+},
+{
+    "country_code": "US",
+    "asn_v4": 393246,
+    "id": 6140,
+    "company": "Afilias",
+    "city": "Ashburn, VA",
+    "country": "United States of America",
+    "v4_msm_id": 2339853
+},
+{
+    "country_code": "US",
+    "asn_v4": 3851,
+    "id": 6201,
+    "company": "University of Nevada, Reno",
+    "city": "Reno",
+    "country": "United States of America",
+    "v4_msm_id": 4104529
+},
+{
+    "country_code": "US",
+    "asn_v4": 16876,
+    "id": 6130,
+    "company": "ICANN",
+    "city": "Reston",
+    "country": "United States of America",
+    "v4_msm_id": 2021326
+},
+{
+    "country_code": "US",
+    "asn_v4": 2914,
+    "id": 6065,
+    "company": "NTT Communications",
+    "city": "Seattle",
+    "country": "United States of America",
+    "v4_msm_id": 1672028
+},
+{
+    "country_code": "US",
+    "asn_v4": 14061,
+    "id": 6074,
+    "company": "DigitalOcean",
+    "city": "San Francisco",
+    "country": "United States of America",
+    "v4_msm_id": 1726568
+},
+{
+    "country_code": "US",
+    "asn_v4": 14907,
+    "id": 6095,
+    "company": "Wikimedia Foundation, Inc.",
+    "city": "San Francisco",
+    "country": "United States of America",
+    "v4_msm_id": 1791306
+},
+{
+    "country_code": "US",
+    "asn_v4": 7203,
+    "id": 6156,
+    "company": "Leaseweb Network B.V.",
+    "city": "San Francisco",
+    "country": "United States of America",
+    "v4_msm_id": 2856282
+},
+{
+    "country_code": "US",
+    "asn_v4": 22300,
+    "id": 6122,
+    "company": "Wikia",
+    "city": "San Jose",
+    "country": "United States of America",
+    "v4_msm_id": 1990233
+},
+{
+    "country_code": "US",
+    "asn_v4": 7922,
+    "id": 6072,
+    "company": "Comcast ",
+    "city": "West Chester",
+    "country": "United States of America",
+    "v4_msm_id": 1698335
+},
+{
+    "country_code": "UY",
+    "asn_v4": 28000,
+    "id": 6054,
+    "company": "LACNIC",
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "v4_msm_id": 1603550
+},
+{
+    "country_code": "ZA",
+    "asn_v4": 37663,
+    "id": 6187,
+    "company": "INX-ZA / Internet Service Providers&#39; Association of South Africa",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "v4_msm_id": 3606482
+},
+{
+    "country_code": "ZA",
+    "asn_v4": 10474,
+    "id": 6053,
+    "company": "MWEB",
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "v4_msm_id": 1612282
+},
+{
+    "country_code": "ZA",
+    "asn_v4": 37474,
+    "id": 6179,
+    "company": "INX-ZA / Internet Service Providers&#39; Association of South Africa",
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "v4_msm_id": 3560200
+},
+{
+    "country_code": "ZA",
+    "asn_v4": 37668,
+    "id": 6176,
+    "company": "INX-ZA / Internet Service Providers&#39; Association of South Africa",
+    "city": "Umhlanga",
+    "country": "South Africa",
+    "v4_msm_id": 3548328
+}
+]

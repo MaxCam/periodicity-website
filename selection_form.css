@@ -1,0 +1,40 @@
+
+.easytree-container { height: 25em; }
+.box-title { text-align: center; font-weight: bold; margin-bottom: 1em; }
+.as-selector { text-align: center; margin-top: 2em; }
+.as-selector select { width: 80%; height: 10em; }
+#incomplete-probes { display: table; margin: auto; margin-top: 1em; }
+#loading_status_atlas { margin-top: 1em; font-size: 0.8em; }
+#loading_status_user { margin-top: 1em; font-size: 0.8em; }
+.atlas-anchors-form-box { width: 33%; float: left; }
+#atlas-anchors-form-box-last { text-align: center; }
+.user-data-form-box { width: 50%; float: left; text-align: center; }
+
+#user_data_console {
+    height: 10em;
+    width: 100%;
+    margin-top: 1em;
+    overflow: scroll;
+    background-color: #e3e3e3;
+    white-space: pre;
+    font-family: "courier";
+    font-size: 0.8em;
+    text-align: left;
+    display: none;
+}
+
+.selection_form_container {
+	border: 10px groove red;
+	overflow: auto;
+	padding: 10px;
+}
+
+.selection_form_title {
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+}
+
+.selection_form_description {
+	background-color: #e0eaf9;
+	margin-bottom: 1em;
+}
