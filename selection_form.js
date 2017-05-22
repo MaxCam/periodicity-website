@@ -412,16 +412,16 @@ function onAnchorChange(msm_id, countries, urlParams) {
                         probeChecks.change(function() {
                             var numSelectedProbes = $(".probe_check:checked").length;
                             if (numSelectedProbes == maxProbes + 1) {
-
-                                selection = {
-                                    msm: msm_id,
-                                    probes: $(".probe_check:checked").map(function () { return $(this).val() }).toArray()
-                                };
                                 
                                 $("#loading_status_atlas").css("color", "orangered").html("We are sorry! You can select maximum one probe");
                                 this.checked = false;
                                 // $("#launchtplay_button").attr("disabled", true);
                                 return false;
+                            } else {
+                                selection = {
+                                    msm: msm_id,
+                                    probes: $(".probe_check:checked").map(function () { return $(this).val() }).toArray()
+                                };
                             }
                             $("#loading_status_atlas").html("");
                         });
