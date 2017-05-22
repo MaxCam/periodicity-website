@@ -411,7 +411,7 @@ function onAnchorChange(msm_id, countries, urlParams) {
 
                         selection = {
                             msm: msm_id,
-                            probes: $(".probe_check:checked").map(function () { return $(this).val() }).toArray(),
+                            probes: $(".probe_check:checked").map(function () { return $(this).val() }).toArray()
                         };
                         probeChecks.change(function() {
                             var numSelectedProbes = $(".probe_check:checked").length;
