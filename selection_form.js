@@ -384,7 +384,7 @@ function shuffle(a) {
 
 function onLaunchtplayButtonClick() {
     document.location = "https://massimo.ripe.net/periodicity-calculate/" +
-        "?start=" + moment().utc().unix() +
+        "?start=" + (moment().utc().unix() - 3600 * 24 * 7 )+
         "&stop=" + moment().utc().unix() +
         "&probe=" + selection.probes[0] +
         "&measurement=" + selection.msm;
