@@ -5,7 +5,6 @@ var atlas = "https://atlas.ripe.net/api/v2/";
 var dia = "https://webrobotics.net/json.php?callback=?&resource=http://nero.dia.uniroma3.it:8080/api/v0/";
 
 var loadCitiesUrl = "https://webrobotics.net/nearest-city.php";
-var tplay = "https://www.dia.uniroma3.it/~compunet/projects/radian/client/index_atlas_anchors.html";
 
 
 var selection;
@@ -99,50 +98,109 @@ loadProbes.cache = {};
 function loadAsHolders(probes, callback) {
     var cache = loadAsHolders.cache;
     var asns = probes.map(function (p) { return p.asn_v4 }).filter(function (asn) { return asn });
-    $.getJSON(dia + "as-holders/" + asns.join(","), function (data) {
-        if (data.error != undefined) {
-            console.error("Could not load AS holders", data.error);
-        } else {
-            for (var asn in data) {
-                var holder = data[asn];
-                if (holder != "unknown")
-                    cache[asn] = data[asn];
+
+    var calls = asns.map(function(asn){
+
+        return new Promise(function (resolve, reject) {
+            if (cache[asn]) {
+                resolve();
+            } else {
+                $.getJSON("https://stat.ripe.net/data/as-overview/data.json?resource=" + asn, function (result) {
+                    var asn = result.data.resource;
+                    var holder = result.data.holder;
+
+                    cache[asn] = holder;
+
+                    resolve();
+                });
             }
-        }
-        callback(cache);
+        });
+
     });
+
+    Promise.all(calls)
+        .then(function(){
+            callback(cache);
+        });
 }
 loadAsHolders.cache = {};
 
-
 function loadCities(probes, callback) {
     var cache = loadCities.cache;
-    var latitude = probes.map(function (p) { return p.latitude });
-    var longitude = probes.map(function (p) { return p.longitude });
 
-    $.ajax({
-        type: "POST",
-        dataType: "json",
-        async: true,
-        cache: false,
-        //timeout: config.ajaxTimeout,
-        url: loadCitiesUrl,
-        data: {
-            latitude: latitude.join(","),
-            longitude: longitude.join(",")
-        },
-        success: function (data) {
-            for (var i = 0; i < probes.length; i++) {
-                if (data.cities[i] != "")
-                    cache[probes[i].id] = data.cities[i];
+    var calls = probes.map(function(probe){
+        return new Promise(function(resolve, reject){
+            if (cache[probe.id]){
+                resolve();
+            } else {
+                $.getJSON("https://ipmap.ripe.net/api/v1/worlds/reverse/"+ probe.latitude + "/"+ probe.longitude, function (data) {
+                    cache[probe.id] = data.locations[0].cityName;
+                    resolve();
+                });
             }
-            callback(cache);
-        },
-        error: function (error) {
-            console.error("Could not load cities", error);
-        }
+
+        });
     });
+
+    Promise.all(calls).then(function(){
+        callback(cache);
+    });
+
+    // var latitude = probes.map(function (p) { return p.latitude });
+    // var longitude = probes.map(function (p) { return p.longitude });
+    //
+    // $.ajax({
+    //     type: "POST",
+    //     dataType: "json",
+    //     async: true,
+    //     cache: false,
+    //     //timeout: config.ajaxTimeout,
+    //     url: loadCitiesUrl + ,
+    //     data: {
+    //         latitude: latitude.join(","),
+    //         longitude: longitude.join(",")
+    //     },
+    //     success: function (data) {
+    //         for (var i = 0; i < probes.length; i++) {
+    //             if (data.cities[i] != "")
+    //                 cache[probes[i].id] = data.cities[i];
+    //         }
+    //         callback(cache);
+    //     },
+    //     error: function (error) {
+    //         console.error("Could not load cities", error);
+    //     }
+    // });
 }
+
+// function loadCities(probes, callback) {
+//     var cache = loadCities.cache;
+//     var latitude = probes.map(function (p) { return p.latitude });
+//     var longitude = probes.map(function (p) { return p.longitude });
+//
+//     $.ajax({
+//         type: "POST",
+//         dataType: "json",
+//         async: true,
+//         cache: false,
+//         //timeout: config.ajaxTimeout,
+//         url: loadCitiesUrl + ,
+//         data: {
+//             latitude: latitude.join(","),
+//             longitude: longitude.join(",")
+//         },
+//         success: function (data) {
+//             for (var i = 0; i < probes.length; i++) {
+//                 if (data.cities[i] != "")
+//                     cache[probes[i].id] = data.cities[i];
+//             }
+//             callback(cache);
+//         },
+//         error: function (error) {
+//             console.error("Could not load cities", error);
+//         }
+//     });
+// }
 loadCities.cache = {};
 
 
@@ -179,7 +237,7 @@ function ProbeGrouping(countries, asn2holder, probeCity) {
             return probeCity[probe.id];
         else
             return "unknown city";
-    }
+    };
 
     var rootIcon = function (_) { return "images2/world1.png" };
     var continentIcon = function (continent) { return "images2/continent3.jpg" };
@@ -208,7 +266,7 @@ function ProbeGrouping(countries, asn2holder, probeCity) {
         var holder = asn in asn2holder ? asn2holder[asn] : "";
         var as = asn ? "AS" + asn + " " + holder : "";
         return '<input type="checkbox" class="probe_check" value="' + id + '">' + id + " " + as;
-    }
+    };
 
     this.rootKey = rootKey;
     this.rootIcon = rootIcon;
@@ -383,7 +441,7 @@ function shuffle(a) {
 
 
 function onLaunchtplayButtonClick() {
-    document.location = "https://massimo.ripe.net/periodicity-calculate/" +
+    document.location = "https://massimo.ripe.net/periodicity/calculate/" +
         "?start=" + (moment().utc().unix() - 3600 * 24 * 7 )+
         "&stop=" + moment().utc().unix() +
         "&probe=" + selection.probes[0] +
@@ -416,7 +474,7 @@ function onAnchorChange(msm_id, countries, urlParams) {
                         probeChecks.change(function() {
                             var numSelectedProbes = $(".probe_check:checked").length;
                             if (numSelectedProbes == maxProbes + 1) {
-                                
+
                                 $("#loading_status_atlas").css("color", "orangered").html("We are sorry! You can select maximum one probe");
                                 this.checked = false;
                                 // $("#launchtplay_button").attr("disabled", true);
@@ -457,6 +515,8 @@ function readUrlParameters() {
 
 
 $(document).ready(function () {
+    $("#anchor_tree").html("<span>Loading...</span>");
+
     var urlParams = readUrlParameters();
     loadAnchorsData(function (allAnchors) {
         loadCountryCodes(function (countries) {
