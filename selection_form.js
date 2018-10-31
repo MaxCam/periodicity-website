@@ -23,6 +23,7 @@ function loadCountryCodes(callback) {
     });
 }
 
+
 function loadProbeIds(msm_id, callback) {
     var cache = loadProbeIds.cache;
     if (msm_id in cache) {
@@ -96,34 +97,8 @@ loadProbes.cache = {};
 
 
 function loadAsHolders(probes, callback) {
-    var cache = loadAsHolders.cache;
-    var asns = probes.map(function (p) { return p.asn_v4 }).filter(function (asn) { return asn });
-
-    var calls = asns.map(function(asn){
-
-        return new Promise(function (resolve, reject) {
-            if (cache[asn]) {
-                resolve();
-            } else {
-                $.getJSON("https://stat.ripe.net/data/as-overview/data.json?resource=" + asn, function (result) {
-                    var asn = result.data.resource;
-                    var holder = result.data.holder;
-
-                    cache[asn] = holder;
-
-                    resolve();
-                });
-            }
-        });
-
-    });
-
-    Promise.all(calls)
-        .then(function(){
-            callback(cache);
-        });
+    $.getJSON("asLookup.json", callback);
 }
-loadAsHolders.cache = {};
 
 function loadCities(probes, callback) {
     var cache = loadCities.cache;
@@ -313,7 +288,7 @@ function populateProbesMenuD3(groupedProbes, container, rootKey, rootIcon, rootT
                     aux(group[entry], node, groupIcons_.slice(1), groupTexts_.slice(1));
                 });
         }
-    }
+    };
 
     aux(groupedProbes[rootKey()], rootNode, groupIcons, groupTexts);
     tree.rebuildTree();
